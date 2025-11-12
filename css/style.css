@@ -1,0 +1,54 @@
+
+
+
+.header{
+    border: 25px gray solid;
+    display: flex;
+    flex-direction:row;
+    background-color: gray;
+    padding:0;
+    gap: 15px;
+       
+}
+
+   .header-item img{
+    width: 50px;
+    height: 50px;
+    border: none;
+    
+   }
+ 
+ .title{ 
+    background-color: deeppink;
+    font-size: 1rem;
+    width: 150px;
+    height: 50px;
+  
+}
+.figure{ 
+    background-color: fuchsia;
+   width:150px;
+   height: 50px;
+} 
+.main-container{ 
+    display: flex;
+    border: 25px cadetblue solid;
+    margin-top:20px ;
+    background-color: cadetblue;
+    
+}
+.main-box{ 
+    border: 25px cadetblue solid;
+    width: 200px;
+    flex-direction: row;
+    height: 50px; 
+    padding: 0; 
+    
+}
+.item1{ 
+    background-color: chocolate;
+    width: 50%;
+}
+.item2{ background-color: chartreuse;
+width: 50%;
+}
